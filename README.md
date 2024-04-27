@@ -1,0 +1,1 @@
+# KompetenzKompass-consilting-website-DE-VII
