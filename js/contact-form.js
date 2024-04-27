@@ -1,12 +1,12 @@
-const submit = document.querySelector('#submit')
+const submit = document.querySelector('#submit');
 
 submit.addEventListener('click', () => {
-    event.preventDefault()
-})
+    event.preventDefault();
+});
 
 function sendForm() {
     const newPath = 'thanks.html';
-    
+
     // Get the input value
     const emailInput = document.getElementById('email').value;
 
@@ -18,6 +18,7 @@ function sendForm() {
         document.getElementById('result').textContent = '';
         window.location.href = newPath;
     } else {
-        document.getElementById('result').textContent = 'Invalid email. Please enter a valid email address.';
+        document.getElementById('result').textContent =
+            'Ungültige E-Mail. Bitte geben Sie eine gültige E-Mail-Adresse ein.';
     }
 }
